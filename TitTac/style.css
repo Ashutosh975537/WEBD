@@ -1,0 +1,122 @@
+body{
+    background: black;
+}
+
+#headerId{
+    margin-left: 42%;
+    margin-top: 20px;
+    background: rgb(79, 122, 15);
+    padding : 10px ;
+    height : 80px ;
+    width : 200px ;
+    color : white ;
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+.main{
+    height : 600px ;
+    width : 600px ;
+    margin-left: 30%;
+    margin-top:20px ;
+    background : #730099;
+    display: flex;
+    /* flex-direction: column ;  */
+    align-items : center;
+    justify-content: center;
+}
+
+#btn0{
+    height : 100px ;
+    width : 100px ;
+    color : red ;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+#btn1{
+    height : 100px ;
+    width : 100px ;
+    color : red ;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+
+#btn2{
+    height : 100px ;
+    width : 100px ;
+    color : red ;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+
+#btn3{
+    height : 100px ;
+    width : 100px ;
+    color : red ;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+
+#btn4{
+    height : 100px ;
+    width : 100px ;
+    color : red ;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+
+
+#btn5{
+    height : 100px ;
+    width : 100px ;
+    color : red ;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+
+
+#btn6{
+    height : 100px ;
+    width : 100px ;
+    color : red ;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+
+
+#btn7{
+    height : 100px ;
+    width : 100px ;
+    color : red ;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+
+#btn8{
+    height : 100px ;
+    width : 100px ;
+    color : red ;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+
+
+#inputId1{
+    align-items:start;
+}
+
+.pId{
+    background: cyan ;
+    font-size: larger;
+    font-weight: bolder;
+}

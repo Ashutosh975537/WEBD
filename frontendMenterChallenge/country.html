@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="country.css" />
+    <script src="country.js" defer type = "module"></script>
+  </head>
+  <body class = "dark">
+    <header class="headerContiner">
+      <div class="headerContent">
+        <h2 class="title"><a href="./index.html"> Where in the World?</a></h2>
+        <div class="darkContainer">
+          <i class="fa-solid fa-moon"></i>
+          <p class="darkModeText">Dark Mode</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="mainContentContainer">
+        <span  class="anchorButton">
+          <i class="fa-solid fa-arrow-left"></i>&nbsp; &nbsp; Back
+        </span>
+        <div class="countryDetails">
+          <div class="flagContainer">
+            <img src="" alt="" />
+          </div>
+          <div class="countryContent">
+            <h2 class="countryTitle"></h2>
+            <div class="textContent">
+              <div class="contentLeft">
+                <p class="pText"><b class="bText">Native Name: &nbsp; </b ><span class = "nativeName" ></span></p>
+                <p class="pText"><b class="bText">pupulation: &nbsp; </b><span class = "population"></span></p>
+                <p class="pText"><b class="bText">Region: &nbsp; </b><span class = "region"></span></p>
+                <p class="pText"><b class="bText">subregion:&nbsp;  </b><span class = "subRegion"></span></p>
+                <p class="pText"><b class="bText">capital: &nbsp; </b><span class = "capital"></span></p>
+              </div>
+              <div class="contentRight">
+                <div class="contentLeft">
+                  <p class="pText"><b class="bText">Top Level Domain: &nbsp; </b><span class = "topLevelDomain"></span></p>
+                  <p class="pText"><b class="bText">currencies: &nbsp; </b><span class = "currencies"></span></p>
+                  <p class="pText"><b class="bText">Language: &nbsp; </b><span class = "language"></span></p>
+                </div>
+              </div>
+            </div>
+            <div class="borderCountries">
+                <b class="bText">Border Countries: </b>
+              <div class="neighbourTaq">
+            </div>
+          </div>
+  
+        </div>
+      </div>
+
+    </main>
+  </body>
+</html>

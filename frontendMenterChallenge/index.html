@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body class = "dark">
+    <header class="headerContiner">
+        <div class="headerContent">
+            <h2 class = "title"> <a href="./index.html"> Where in the World?</a></h2>
+            <div class="darkContainer">
+                <i class="fa-solid fa-moon"></i>
+                <p class = "darkModeText">Dark Mode</p>
+            </div>
+        </div>
+    </header>
+    <main class = "mainSection">
+        <div class="mainSectionContent">
+            <div class="searchContainer">
+                <div class="searchBar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search for Countries.... ">
+                </div>
+                <div class="selectorContent">
+                    <select class = "selector">
+                        <option hidden>Filter By region</option>
+                        <option value="Africa">Africa</option>
+                        <option value="America">America</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Europe">Europe</option>
+                        <option value="Ocenia">Ocenia</option>
+                    </select>
+                </div>
+            </div>
+            <div class="countriesContainer">
+            </div>
+        </div>
+
+
+    </main>
+</body>
+</html>
